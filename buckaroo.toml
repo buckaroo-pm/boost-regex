@@ -1,1 +1,5 @@
 targets = [ "//:regex" ]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "branch=master"
