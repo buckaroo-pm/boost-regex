@@ -1,9 +1,45 @@
 targets = [ "//:regex" ]
 
 [[dependency]]
+package = "github.com/buckaroo-pm/icu4c"
+version = "branch=master"
+
+[[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
 version = "branch=master"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-predef"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-core"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-integer"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-iterator"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-mpl"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-type_traits"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-smart_ptr"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-throw_exception"
+version = "branch=master"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-container_hash"
 version = "branch=master"

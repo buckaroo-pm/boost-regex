@@ -1,0 +1,9 @@
+cxx_binary(
+  name = 'credit-card-example', 
+  srcs = [
+    'credit_card_example.cpp', 
+  ], 
+  deps = [
+    '//:regex', 
+  ], 
+)

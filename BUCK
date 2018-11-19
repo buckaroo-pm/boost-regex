@@ -6,6 +6,9 @@ cxx_library(
   exported_headers = subdir_glob([
     ('include/boost', '**/*.hpp'),
   ]),
+  preprocessor_flags = [
+    '-DBOOST_HAS_ICU=1', 
+  ], 
   srcs = glob([
     'src/**/*.cpp', 
   ]), 
