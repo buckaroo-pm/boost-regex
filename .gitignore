@@ -4,4 +4,5 @@ buckaroo
 .buckconfig.d
 .buckconfig.local
 buckaroo
+buckaroo_macros.bzl
 BUCKAROO_DEPS
