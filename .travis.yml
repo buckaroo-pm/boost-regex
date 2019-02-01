@@ -20,7 +20,7 @@ os:
   - osx
 
 env:
-  - BUCKAROO_VERSION=buckaroo-redux-alpha-13
+  - BUCKAROO_VERSION=v2.0.0
 
 cache:
   directories:
@@ -32,6 +32,6 @@ before_install:
   - ./travis/before-install-$TRAVIS_OS_NAME.sh
 
 script:
-  - ./buckaroo-client install
-  - buck build -c ui.superconsole=DISABLED //:regex
-  - buck run -c ui.superconsole=DISABLED //example/snippets:credit-card-example
+  - ./bin/buckaroo install
+  - ./bin/buck build -c ui.superconsole=DISABLED //:regex
+  - ./bin/buck run -c ui.superconsole=DISABLED //example/snippets:credit-card-example
