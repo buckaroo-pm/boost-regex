@@ -1,4 +1,4 @@
-manifest = "577de9a9c1c92662abff122ad02f2de18f26d9194419d0d5361744bbd1ddfeb2"
+manifest = "6365d5a92b3d1c9a77c410a5b537b38fb3f9a53be6b4832fe4c2baa13038037a"
 
 [[dependency]]
 package = "github.com/buckaroo-pm/boost-config"
@@ -78,7 +78,7 @@ revision = "43c7296e8513fcb9cda6e88396e863995c0d0cb5"
 
 [lock."github.com/buckaroo-pm/boost-iterator"]
 versions = [ "branch=master" ]
-revision = "427d132236d5048d64e3a861e29e943c13ce7059"
+revision = "6cf70fbf057ecbfec43013b7e39ef5011000798a"
 
 [lock."github.com/buckaroo-pm/boost-move"]
 versions = [ "branch=master" ]
@@ -118,4 +118,4 @@ revision = "f04cf922658a7e03776631a96c3ad346ad179d5f"
 
 [lock."github.com/buckaroo-pm/icu4c"]
 versions = [ "branch=master" ]
-revision = "2bfbe715e2c1cd41e301b6a67fd50ae54273a504"
+revision = "7dfc9d72ec1fd0a47d0ef4f8e7756c797ad26f53"
