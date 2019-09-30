@@ -1,0 +1,65 @@
+manifest = "1a0b689ab730f0dd93cfb753bec87f1653a6dcd374cf47c3aa406da3454b3d73"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+target = "//:config"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-container_hash"
+target = "//:container_hash"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-integer"
+target = "//:integer"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-iterator"
+target = "//:iterator"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-smart_ptr"
+target = "//:smart_ptr"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-type_traits"
+target = "//:type_traits"
+
+[lock."github.com/buckaroo-pm/boost-config"]
+versions = [ "1.28.0" ]
+revision = "e5f044291adec7ee599144608ac5856151558dae"
+
+[lock."github.com/buckaroo-pm/boost-container_hash"]
+versions = [ "1.28.0" ]
+revision = "f259105582213a141378d5b096056dcae9d8ab0b"
+
+[lock."github.com/buckaroo-pm/boost-detail"]
+versions = [ "1.28.0" ]
+revision = "a5243efdf3ec2871379224c5e71cb3280548cfec"
+
+[lock."github.com/buckaroo-pm/boost-integer"]
+versions = [ "1.28.0" ]
+revision = "713d0ec5a6a8d6f1939bc093146c825cc8a213e2"
+
+[lock."github.com/buckaroo-pm/boost-iterator"]
+versions = [ "1.28.0" ]
+revision = "bca959004fa4bfd2ac006c2c1f65f307af257a17"
+
+[lock."github.com/buckaroo-pm/boost-preprocessor"]
+versions = [ "1.28.0" ]
+revision = "69c26afa48b73ecd1f97182480f419bf8a5bd9f0"
+
+[lock."github.com/buckaroo-pm/boost-smart_ptr"]
+versions = [ "1.28.0" ]
+revision = "e54a13ba0ae469bc0c538c18043edbf1b0066294"
+
+[lock."github.com/buckaroo-pm/boost-static_assert"]
+versions = [ "1.28.0" ]
+revision = "46ef89e5690471340346c80e4105b71eed08b229"
+
+[lock."github.com/buckaroo-pm/boost-type_traits"]
+versions = [ "1.28.0" ]
+revision = "e020fe6f01a0ad732291ae5c51292230e226a367"
+
+[lock."github.com/buckaroo-pm/boost-utility"]
+versions = [ "1.28.0" ]
+revision = "7272a4e36603f27d2337efd0d1db43de2ce0c350"
